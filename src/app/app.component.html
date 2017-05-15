@@ -1,3 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+ <div class="container">
+  <div class="jumbotron">
+ <img  class="img-responsive" src="/assets/images/pet.png" alt="" class="img-rounded" id="Panel_Image" width="100%" />
+    </div>
+  </div>
+
+ <div class="panel panel-primary">
+  <div class="panel-heading">
+    Status
+  </div>
+   <div class="panel-body">
+   <h4> This tool is used to provide an initial pricing estimate based on the customer’s high level requirements.  </h4>
+   <br>
+   <p> It is based on a number of assumptions regarding the customer’s commercial and technical requirements, and the functionality, availability and geographical coverage of the products and services selected. </p>
+   <br>
+   <div class="col-md-4 text-center"> 
+     <button type="button" class="btn btn-primary btn-md" (click)="btnClick();">Enter the Customer Requirements</button>
+    </div> 
+   </div>    
+ </div>
+    <router-outlet> </router-outlet>
